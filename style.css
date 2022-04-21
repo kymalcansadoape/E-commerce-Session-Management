@@ -1,4 +1,82 @@
 *{
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
+}
+:root{
+    font-size: 62.5%;
+    --font: 'Playfair Display', serif;
+}
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+/* ! Index.html CSS */
+h1, h2, h3, h4, h5, h6{
+    overflow: hidden;
+    font-family: var(--font);
+    font-weight: 400;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: var(--font) ;
+    font-weight: 500;
+}
+.nav-item{
+    font-size: 2rem;
+    font-family: var(--font);
+    font-weight: 500;
+}
+#landing-h1{
+    font-size: 3rem;
+    font-family: var(--font);
+}
+#featured{
+    margin-top: 5rem;
+}
+#featured-heading{
+    margin: 10rem 0 3rem 0;
+    font-family: var(--font);
+    font-size: 3.2rem;
+}
+#landing-pic{
+    object-fit: cover;
+    height: 50%;
+}
+#shirts-heading{
+    font-size: 3.2rem;
+    margin: 7rem 0 4rem 0;
+}
+
+#featured .img-fluid{
+    object-fit: cover;
+}
+.fluid-container{
+    object-fit: cover;
+}
+.card p , .lead, .btn{ 
+    font-size: 1.5rem;
+}
+.lead{
+    font-weight: 400;
+}
+#about h1{
+    font-size: 3.2rem;
+}
+.form-control{
+    font-size: 1.6rem;
+}
+/* ! Shop.html CSS */
+#category , #products{
+    font-size: 3.2rem;
+}
+#shop-category > a{
+    font-size: 2rem;
+}
+.pagination > li > a {
+    color: black;
+    font-size: 2rem;
 }
