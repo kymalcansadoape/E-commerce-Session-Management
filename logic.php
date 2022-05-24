@@ -1,6 +1,6 @@
 <?php 
-  $username = 'admin';
-  $password = 'admin';
+  $username = 'Kym';
+  $password = 'kym';
   
   session_start();
   if(isset($_SESSION['user'])){

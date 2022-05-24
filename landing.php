@@ -8,7 +8,7 @@ if(!isset($_SESSION['user'])){
 
     <!-- * landing -->
     <section class="mt-5">
-        <<h1 id="landing-h1" class="text-center px-5 pb-4 mt-5">Welcome sa  Relepan</h1>
+        <?php echo "<h1 id='landing-h1' class='text-center px-5 pb-4 mt-5'>Welcome sa " . $_SESSION['user'] . " Relepan</h1>"; ?>
         <div class="fluid-container">
             <img id="landing-pic" src="images/men/shirts-landing-2.jpg" class=" w-100 align-content-center" alt="">
         </div>
